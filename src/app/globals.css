@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&family=Inter:wght@100;200;300;400;500;600;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -24,4 +25,154 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+.texta{
+  color: #FFF;
+font-family: 'Open Sans ' , sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 186px;
+height: 24px;
+flex-shrink: 0;
+}
+.techtext{
+  color: #FFF;
+  font-family: 'Open Sans ' , sans-serif;
+/* font-family: Font Awesome 5 Brands; */
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.menutext{
+  color: #C7C7C7;
+font-family:  'Open Sans ' , sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+}
+.dashtext{
+  /* color: ; */
+font-family: 'Cairo' , sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.sidebar{
+   background: var(--Dark02, #15132B);
+
+   /* Shadow-Black01 */
+   box-shadow: 18px 4px 35px 0px rgba(0, 0, 0, 0.15);
+}
+.sev{
+  border-radius: 30px;
+background: var(--Accent01, #5ECFFF);
+width: 29px;
+height: 29px;
+flex-shrink: 0;
+position: relative;
+margin-left: 82px;
+color: var(--White, #FFF);
+font-family: 'Cairo' , sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.new{
+  border-radius: 30px;
+background: var(--Accent02, #E328AF);
+width: 63px;
+height: 35px;
+flex-shrink: 0;
+color: var(--White, #FFF);
+font-family: Cairo;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 63px;
+}
+.sidecard{
+  width: 245px;
+height: 203px;
+flex-shrink: 0;
+background-image: url('/Group 14.png');
+background-size: cover;
+/* background-color: #A0F9FF82, #A0F9FF33; */
+/* background-image: linear-gradient(to #A0F9FF82, #A0F9FF33); */
+border-radius: 32px;
+/* background: linear-gradient(139deg, #076ECD 23.19%, #1CBBFF 102.24%); */
+
+}
+.sidecardtext{
+  width: 195px;
+  color: var(--White, #FFF);
+font-family: Cairo;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 34px; /* 141.667% */
+}
+.inputt{
+  border-radius: 46px;
+background: #211A75;
+width: 391px;
+height: 68px;
+flex-shrink: 0;
+}
+.othermenu{
+  color: var(--Primary, #6418C3);
+font-family: Cairo;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration-line: underline;
+}
+.imgbut1{
+  width: 26px;
+height: 26px;
+flex-shrink: 0;
+border-radius: 14px;
+background: var(--Accent01, #5ECFFF);
+
+/* Shadow-Blue */
+box-shadow: 0px 14px 28px 0px rgba(94, 207, 255, 0.12);
+color: var(--Dark01, #0D0B21);
+font-family: 'Cairo', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.sign{
+  /* color: var(--Dark01, #0D0B21);
+   */
+   color: #FFF;
+font-family: Cairo;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.dropdiv{
+  border-radius: 46px;
+background: #211A75;
+width: 177px;
+height: 68px;
+flex-shrink: 0;
+}
+.droptext{
+  color: var(--White, #FFF);
+font-family: Cairo;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
